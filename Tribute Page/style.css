@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to bottom, #FFC0CB, #FF69B4);
+    font-family: 'Poppins',sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.image {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+  
+.image img {
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 30rem;
+    width: 12rem;
+    border-radius: 1.2rem;
+}
+  
+.image h3 {
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #8B00FF;
+    animation: slidein 2s linear infinite alternate;
+}    
+      
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+        
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}    
+
+.content p{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    text-indent: 50px;
+}
